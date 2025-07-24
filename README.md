@@ -5,6 +5,72 @@ A hands-on journey into Android development with Kotlin — experimenting with J
 
 ---
 
+## 🗂️ Folder Structure
+
+Each folder inside this repo is an independent Flutter project.  
+To run one, just `cd` into the folder and execute `flutter run`.
+
+```
+kotlin-mini-projects/
+├── README.md
+
+├── ui-compose/
+│   ├── compose-basics/                    # Layouts, states, modifiers
+│   ├── animated-weather-ui/              # Canvas, animations, transitions
+│   ├── instagram-ui-clone/               # Feed/profile layout
+│   ├── bottomnav-drawer-demo/            # Multiple navigation patterns
+│   ├── dark-light-theme-switcher/        # Dynamic themes
+
+├── architecture/
+│   ├── todo-mvvm-stateflow/              # ViewModel, StateFlow, Repository
+│   ├── notes-app-room/                   # Room + ViewModel CRUD
+│   ├── login-auth-flow/                  # Form validation, nav, state mgmt
+│   ├── settings-datastore/               # Preference settings with DataStore
+
+├── firebase/
+│   ├── realtime-chat-firestore/          # Chat app with Firestore + Auth
+│   ├── firebase-auth-demo/               # Email/password + Google Sign-In
+│   ├── firestore-todo-sync/              # Cloud-based Todo app
+│   ├── image-upload-storage/             # Upload from Camera to Firebase Storage
+│   ├── push-notification-fcm/            # FCM basic integration
+│   ├── user-profile-firestore/           # Profile info saved in Firestore
+│   ├── firebase-analytics-demo/          # Tracking user events
+│   ├── crashlytics-test-app/             # Logging crashes for testing
+
+├── networking/
+│   ├── news-app-retrofit-paging/         # REST API + Paging3 + ViewModel
+│   ├── graphql-explorer-apollo/          # Explore APIs with Apollo GraphQL
+│   ├── http-client-auth-interceptor/     # OkHttp + token management
+
+├── storage/
+│   ├── room-bookmark-manager/            # Offline bookmark manager
+│   ├── datastore-settings-demo/          # Lightweight persistent settings
+│   ├── encrypted-sharedprefs/            # Secure credential/token storage
+
+├── sensors-permissions/
+│   ├── camera-app-camerax/               # Custom Camera UI
+│   ├── location-tracker-maps/            # Google Maps + user location
+│   ├── biometric-auth-demo/              # Fingerprint/face unlock
+│   ├── permission-handler-demo/          # Requesting camera, location
+│   ├── sensors-accelerometer-demo/       # Shake or tilt interaction
+
+├── experimental/
+│   ├── compose-canvas-drawing/           # Freehand drawing with Canvas
+│   ├── tictactoe-game-compose/           # Game logic in Compose
+│   ├── markdown-viewer-compose/          # Markdown renderer
+│   ├── compose-transitions-lab/          # Motion & animation experiments
+
+├── utility-apps/
+│   ├── bmi-calculator/                   # Input + output logic app
+│   ├── unit-converter/                   # Dropdowns + live calculations
+│   ├── pomodoro-timer/                   # Timer logic with Compose
+│   ├── expense-tracker-local/            # Monthly budget tracker
+│   ├── stopwatch-app/                    # Compose + Timer
+
+```
+
+---
+
 ## 📁 Project Categories
 
 This repository is structured into folders by theme — UI, architecture, Firebase, sensors, storage, and more — to make learning organized and repeatable.
