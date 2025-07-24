@@ -1,1 +1,1 @@
-# kotlin-mini-projects
+# Kotlin-Mini-Projects
