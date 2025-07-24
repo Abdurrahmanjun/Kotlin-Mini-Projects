@@ -74,7 +74,7 @@ kotlin-mini-projects/
 
 This repository is structured into folders by theme — UI, architecture, Firebase, sensors, storage, and more — to make learning organized and repeatable.
 
-You can track your progress with ✅ (done), 🛠️ (in progress), or 🔜 (planned).
+I track my progress with ✅ (done), 🛠️ (in progress), or 🔜 (planned).
 
 ---
 
