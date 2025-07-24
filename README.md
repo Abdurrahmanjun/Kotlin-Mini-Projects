@@ -7,8 +7,7 @@ A hands-on journey into Android development with Kotlin — experimenting with J
 
 ## 🗂️ Folder Structure
 
-Each folder inside this repo is an independent Flutter project.  
-To run one, just `cd` into the folder and execute `flutter run`.
+Each folder inside this repo is an independent Kotlin project.  
 
 ```
 kotlin-mini-projects/
