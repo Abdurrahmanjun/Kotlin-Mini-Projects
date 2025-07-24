@@ -128,5 +128,3 @@ You can track your progress with ✅ (done), 🛠️ (in progress), or 🔜 (pla
 - Open it in Android Studio.
 - Follow the `README.md` inside each project for specific instructions (if available).
 - Run with `./gradlew installDebug` or from Studio IDE.
-
-Happy coding 🎯
