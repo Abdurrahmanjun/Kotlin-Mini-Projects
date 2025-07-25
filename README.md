@@ -1,6 +1,6 @@
-# 🧪 Kotlin Mini Projects (2025 Edition)
+# 🧪 Kotlin Mini Projects
 
-A hands-on journey into **modern Android development** with Kotlin — exploring Jetpack Compose 🧱, MVVM architecture ⚙️, Firebase 🔥, concurrency 🧵, AI integration 🤖, modularization 🧩, offline-first strategies 💾, and much more.
+A hands-on journey into **Modern Android development** with Kotlin — exploring Jetpack Compose 🧱, MVVM architecture ⚙️, Firebase 🔥, concurrency 🧵, AI integration 🤖, modularization 🧩, offline-first strategies 💾, and much more.
 
 Each folder in this repository is an **independent runnable mini app** focused on a real-world use case, feature, or best practice.
 
