@@ -1,130 +1,249 @@
+# 🧪 Kotlin Mini Projects (2025 Edition)
 
-# 🧪 Kotlin Mini Projects
+A hands-on journey into **modern Android development** with Kotlin — exploring Jetpack Compose 🧱, MVVM architecture ⚙️, Firebase 🔥, concurrency 🧵, AI integration 🤖, modularization 🧩, offline-first strategies 💾, and much more.
 
-A hands-on journey into Android development with Kotlin — experimenting with Jetpack Compose 🧱, app architecture ⚙️, and modern Android features 🚀.
+Each folder in this repository is an **independent runnable mini app** focused on a real-world use case, feature, or best practice.
 
 ---
 
 ## 🗂️ Folder Structure
 
-Each folder inside this repo is an independent Kotlin project.  
-
 ```
 kotlin-mini-projects/
-├── README.md
-
 ├── ui-compose/
-│   ├── compose-basics/                    # Layouts, states, modifiers
-│   ├── animated-weather-ui/              # Canvas, animations, transitions
-│   ├── instagram-ui-clone/               # Feed/profile layout
-│   ├── bottomnav-drawer-demo/            # Multiple navigation patterns
-│   ├── dark-light-theme-switcher/        # Dynamic themes
-
 ├── architecture/
-│   ├── todo-mvvm-stateflow/              # ViewModel, StateFlow, Repository
-│   ├── notes-app-room/                   # Room + ViewModel CRUD
-│   ├── login-auth-flow/                  # Form validation, nav, state mgmt
-│   ├── settings-datastore/               # Preference settings with DataStore
-
 ├── firebase/
-│   ├── realtime-chat-firestore/          # Chat app with Firestore + Auth
-│   ├── firebase-auth-demo/               # Email/password + Google Sign-In
-│   ├── firestore-todo-sync/              # Cloud-based Todo app
-│   ├── image-upload-storage/             # Upload from Camera to Firebase Storage
-│   ├── push-notification-fcm/            # FCM basic integration
-│   ├── user-profile-firestore/           # Profile info saved in Firestore
-│   ├── firebase-analytics-demo/          # Tracking user events
-│   ├── crashlytics-test-app/             # Logging crashes for testing
-
 ├── networking/
-│   ├── news-app-retrofit-paging/         # REST API + Paging3 + ViewModel
-│   ├── graphql-explorer-apollo/          # Explore APIs with Apollo GraphQL
-│   ├── http-client-auth-interceptor/     # OkHttp + token management
-
 ├── storage/
-│   ├── room-bookmark-manager/            # Offline bookmark manager
-│   ├── datastore-settings-demo/          # Lightweight persistent settings
-│   ├── encrypted-sharedprefs/            # Secure credential/token storage
-
 ├── sensors-permissions/
-│   ├── camera-app-camerax/               # Custom Camera UI
-│   ├── location-tracker-maps/            # Google Maps + user location
-│   ├── biometric-auth-demo/              # Fingerprint/face unlock
-│   ├── permission-handler-demo/          # Requesting camera, location
-│   ├── sensors-accelerometer-demo/       # Shake or tilt interaction
-
+├── concurrency/
+├── offline-sync-patterns/
+├── security-and-integrity/
+├── ai-mlkit/
+├── compose-advanced/
+├── modularization/
+├── testing-ci/
+├── webview-hybrid/
 ├── experimental/
-│   ├── compose-canvas-drawing/           # Freehand drawing with Canvas
-│   ├── tictactoe-game-compose/           # Game logic in Compose
-│   ├── markdown-viewer-compose/          # Markdown renderer
-│   ├── compose-transitions-lab/          # Motion & animation experiments
-
 ├── utility-apps/
-│   ├── bmi-calculator/                   # Input + output logic app
-│   ├── unit-converter/                   # Dropdowns + live calculations
-│   ├── pomodoro-timer/                   # Timer logic with Compose
-│   ├── expense-tracker-local/            # Monthly budget tracker
-│   ├── stopwatch-app/                    # Compose + Timer
-
 ```
 
----
-
-## 📁 Project Categories
-
-This repository is structured into folders by theme — UI, architecture, Firebase, sensors, storage, and more — to make learning organized and repeatable.
-
-I track my progress with ✅ (done), 🛠️ (in progress), or 🔜 (planned).
 
 ---
 
-## 🗂️ Table of Contents
+## 📁 Categories & Project List
 
-| Status | Project Folder                          | Description |
-|--------|------------------------------------------|-------------|
-| 🔜 | `compose-basics/`                     | Practice layout, modifiers, states |
-| 🔜 | `animated-weather-ui/`                  | Animated weather dashboard using `Canvas`, `LaunchedEffect` |
-| 🔜 | `instagram-ui-clone/`                   | Feed/profile UI clone |
-| 🔜 | `bottomnav-drawer-demo/`                | BottomNav + Drawer navigation |
-| 🔜 | `dark-light-theme-switcher/`            | Theme switching in Compose |
-| 🔜 | `todo-mvvm-stateflow/`               | MVVM Todo app using ViewModel + StateFlow |
-| 🔜 | `notes-app-room/`                       | Room-based notes app with clean architecture |
-| 🔜 | `login-auth-flow/`                      | Login UI with validation and state mgmt |
-| 🔜 | `settings-datastore/`                   | Preferences/settings using Jetpack DataStore |
-| 🔜 | `realtime-chat-firestore/`           | Real-time chat using Firestore + Firebase Auth |
-| 🔜 | `firebase-auth-demo/`                   | Sign-in with email & Google |
-| 🔜 | `firestore-todo-sync/`                  | Cloud-synced todo app |
-| 🔜 | `image-upload-storage/`                 | Upload image from camera/gallery to Firebase Storage |
-| 🔜 | `push-notification-fcm/`                | Basic FCM setup with Compose UI |
-| 🔜 | `user-profile-firestore/`               | Save/display user profile from Firestore |
-| 🔜 | `firebase-analytics-demo/`              | Track events with Firebase Analytics |
-| 🔜 | `crashlytics-test-app/`                 | Log and monitor crashes with Crashlytics |
-| 🔜 | `news-app-retrofit-paging/`           | News app with paginated API + ViewModel |
-| 🔜 | `graphql-explorer-apollo/`              | Query public APIs with Apollo GraphQL |
-| 🔜 | `http-client-auth-interceptor/`         | Authenticated HTTP requests using OkHttp |
-| 🔜 | `room-bookmark-manager/`             | Bookmark manager using Room |
-| 🔜 | `datastore-settings-demo/`              | Lightweight settings app |
-| 🔜 | `encrypted-sharedprefs/`                | Secure token/password storage |
-| 🔜 | `camera-app-camerax/`               | Capture image with CameraX |
-| 🔜 | `location-tracker-maps/`                | Map with live user location |
-| 🔜 | `biometric-auth-demo/`                  | App lock using fingerprint/face unlock |
-| 🔜 | `permission-handler-demo/`              | Demo app with runtime permission requests |
-| 🔜 | `sensors-accelerometer-demo/`           | Motion-based interaction (e.g. shake to refresh) |
-| 🔜 | `compose-canvas-drawing/`          | Freehand drawing on canvas |
-| 🔜 | `tictactoe-game-compose/`               | Logic + UI game in Compose |
-| 🔜 | `markdown-viewer-compose/`              | Render markdown content |
-| 🔜 | `compose-transitions-lab/`              | Motion + gesture experiments |
-| 🔜 | `bmi-calculator/`                      | Basic BMI app using input fields |
-| 🔜 | `unit-converter/`                       | Simple unit conversion tool |
-| 🔜 | `pomodoro-timer/`                       | Countdown timer with pause/resume |
-| 🔜 | `expense-tracker-local/`                | Local expense manager |
-| 🔜 | `stopwatch-app/`                        | Stopwatch with start/pause/reset |
+### 🎨 UI with Jetpack Compose
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `compose-basics/`                   | Practice layout, modifiers, states |
+| 🔜 | `animated-weather-ui/`              | Animated weather dashboard using `Canvas`, `LaunchedEffect` |
+| 🔜 | `instagram-ui-clone/`               | Feed/profile UI clone |
+| 🔜 | `bottomnav-drawer-demo/`            | BottomNav + Drawer navigation |
+| 🔜 | `dark-light-theme-switcher/`        | Theme switching in Compose |
 
 ---
 
-## 📌 How to Use
+### 🏗 Architecture & State Management
 
-- Pick a folder based on the topic you're learning.
-- Open it in Android Studio.
-- Follow the `README.md` inside each project for specific instructions (if available).
-- Run with `./gradlew installDebug` or from Studio IDE.
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `todo-mvvm-stateflow/`              | MVVM Todo app using ViewModel + StateFlow |
+| 🔜 | `notes-app-room/`                   | Room-based notes app with clean architecture |
+| 🔜 | `login-auth-flow/`                  | Login UI with validation and state mgmt |
+| 🔜 | `settings-datastore/`               | Preferences/settings using Jetpack DataStore |
+
+---
+
+### 🔥 Firebase Integrations
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `realtime-chat-firestore/`          | Real-time chat using Firestore + Firebase Auth |
+| 🔜 | `firebase-auth-demo/`               | Sign-in with email & Google |
+| 🔜 | `firestore-todo-sync/`              | Cloud-synced todo app |
+| 🔜 | `image-upload-storage/`             | Upload image to Firebase Storage |
+| 🔜 | `push-notification-fcm/`            | FCM setup with Compose UI |
+| 🔜 | `user-profile-firestore/`           | User profile stored in Firestore |
+| 🔜 | `firebase-analytics-demo/`          | Track events with Firebase Analytics |
+| 🔜 | `crashlytics-test-app/`             | Log and monitor crashes with Crashlytics |
+
+---
+
+### 🌐 Networking
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `news-app-retrofit-paging/`         | News app with paginated API + ViewModel |
+| 🔜 | `graphql-explorer-apollo/`          | Explore APIs with Apollo GraphQL |
+| 🔜 | `http-client-auth-interceptor/`     | OkHttp + token management |
+
+---
+
+### 💾 Storage & Preferences
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `room-bookmark-manager/`            | Offline bookmark manager |
+| 🔜 | `datastore-settings-demo/`          | Jetpack DataStore for preferences |
+| 🔜 | `encrypted-sharedprefs/`            | Secure storage with EncryptedSharedPreferences |
+
+---
+
+### 📡 Sensors & Permissions
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `camera-app-camerax/`               | Custom Camera UI using CameraX |
+| 🔜 | `location-tracker-maps/`            | Google Maps with live tracking |
+| 🔜 | `biometric-auth-demo/`              | Face/fingerprint unlock |
+| 🔜 | `permission-handler-demo/`          | Handle runtime permissions |
+| 🔜 | `sensors-accelerometer-demo/`       | Detect shake/motion via sensors |
+
+---
+
+### 🧵 Concurrency: Coroutines & Flow
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `coroutines-basics-demo/`           | Basics: suspend, launch, async, scopes |
+| 🔜 | `flow-operators-demo/`              | Operators: debounce, map, filter |
+| 🔜 | `sharedflow-stateflow-demo/`        | Hot flows for UI communication |
+| 🔜 | `lifecycle-aware-collectors/`       | ViewModelScope, lifecycleScope |
+| 🔜 | `parallel-background-tasks/`        | Structured concurrency demo |
+| 🔜 | `retry-timeout-flow-demo/`          | Retry, catch, timeout with Flow |
+
+---
+
+### 🔄 Offline-First Sync Patterns
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `room-paging-remote-mediator/`      | Paging3 + RemoteMediator |
+| 🔜 | `offline-todo-conflict-resolution/` | Conflict resolution in synced Todo app |
+| 🔜 | `background-sync-workmanager/`      | WorkManager chaining, constraints, retries |
+
+---
+
+### 🔐 Security & App Integrity
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `encrypted-file-storage/`           | Encrypted file I/O with Jetpack Security |
+| 🔜 | `safetynet-integrity-api-demo/`     | Tamper/root detection using SafetyNet |
+| 🔜 | `app-integrity-checks/`             | App integrity and environment checks |
+
+---
+
+### 🤖 AI & MLKit Integrations
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `mlkit-text-translation/`           | On-device text translation |
+| 🔜 | `mlkit-face-barcode-detection/`     | Camera + MLKit barcode/face |
+| 🔜 | `tflite-custom-model-demo/`         | TensorFlow Lite with custom model |
+| 🔜 | `chatgpt-ai-integration/`           | GPT/OpenAI/Gemini-powered assistant UI |
+
+---
+
+### 🧱 Compose Advanced Patterns
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `custom-slot-layouts/`              | Reusable slots like Scaffold |
+| 🔜 | `remember-savable-demo/`            | Handle config changes & backstack |
+| 🔜 | `modifier-performance-demo/`        | Explore recomposition cost |
+| 🔜 | `collectAsState-vs-LaunchedEffect/` | Compare Compose collection patterns |
+
+---
+
+### 🧩 Modularization
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `dynamic-feature-modules/`          | Feature delivery with Play Store |
+| 🔜 | `clean-arch-feature-modules/`       | MVVM + use case + DI by module |
+| 🔜 | `di-multimodule-hilt-koin/`         | Hilt vs Koin in modular setups |
+
+---
+
+### 🧪 Testing, CI/CD, Performance
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `github-actions-android-ci/`        | Build + test pipeline with GitHub Actions |
+| 🔜 | `espresso-ui-tests/`                | Traditional UI tests |
+| 🔜 | `compose-ui-test-cases/`            | Compose-specific test samples |
+| 🔜 | `baseline-profiles-performance/`    | Speed up launch time with Baseline Profiles |
+
+---
+
+### 🌐 WebView, MPP, JS Interop
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `compose-webview-bridge/`           | WebView + JS communication in Compose |
+| 🔜 | `compose-multiplatform-preview/`    | Preview Jetpack Compose for Desktop/iOS/Web |
+| 🔜 | `kotlin-js-mini-tool/`              | Simple tool/app built with Kotlin/JS
+
+---
+
+### 🧪 Experimental
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `compose-canvas-drawing/`           | Freehand canvas drawing |
+| 🔜 | `tictactoe-game-compose/`           | Game logic in Compose |
+| 🔜 | `markdown-viewer-compose/`          | Markdown rendering |
+| 🔜 | `compose-transitions-lab/`          | Motion and transition playground |
+
+---
+
+### 🔧 Utility Apps
+
+| Status | Project                          | Description |
+|--------|----------------------------------|-------------|
+| 🔜 | `bmi-calculator/`                   | Input + logic based mini tool |
+| 🔜 | `unit-converter/`                   | Real-time conversion UX |
+| 🔜 | `pomodoro-timer/`                   | Timer-based productivity tool |
+| 🔜 | `expense-tracker-local/`            | Monthly expense logging |
+| 🔜 | `stopwatch-app/`                    | Stopwatch with Compose Timer logic |
+
+---
+
+## ✅ Progress Tracking
+
+I track the learning progress with:
+
+- ✅ Done
+- 🛠️ In progress
+- 🔜 Planned
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repo  
+2. Open any folder inside `Android Studio`
+3. Run with `./gradlew installDebug` or via IDE
+4. Follow inline documentation and `README.md` inside each project (if present)
+
+---
+
+## 🧑‍💻 Contributing
+
+This is a personal learning grind, but PRs and feedback are welcome!  
+If you'd like to contribute:
+
+- Add a project under the correct category
+- Follow consistent naming, folder style, and comment structure
+- Open a PR with a short description and demo screenshots
+
+---
+
+## 🌟 License
+
+MIT — use these examples for learning, teaching, or prototyping freely.
+
+
