@@ -10,22 +10,23 @@ Each folder in this repository is an **independent runnable mini app** focused o
 
 ```
 kotlin-mini-projects/
-├── ui-compose/
+├── _kmp-crossplatform/
+├── ai-mlkit/
 ├── architecture/
-├── firebase/
-├── networking/
-├── storage/
-├── sensors-permissions/
+├── compose-advanced/
 ├── concurrency/
+├── experimental/
+├── firebase/
+├── modularization/
+├── networking/
 ├── offline-sync-patterns/
 ├── security-and-integrity/
-├── ai-mlkit/
-├── compose-advanced/
-├── modularization/
+├── sensors-permissions/
+├── storage/
 ├── testing-ci/
-├── webview-hybrid/
-├── experimental/
+├── ui-compose/
 ├── utility-apps/
+├── webview-hybrid/
 ```
 
 
